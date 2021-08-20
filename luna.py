@@ -82,7 +82,7 @@ async def chat(_, message):
             return
     else:
         match = re.search(
-            "[.|\n]{0,}luna[.|\n]{0,}",
+            "[.|\n]{0,}boy[.|\n]{0,}",
             message.text.strip(),
             flags=re.IGNORECASE,
         )
